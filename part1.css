@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+     
+     font-family: 'Dancing Script', cursive;
+
+   
+}
+
+h2{
+    position: relative;
+    top:60%;
+    left: 60%;
+    width: 22em;
+    border-right: 3px solid whitesmoke;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-60%, -60%);
+    display: block;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+    text-shadow: 0 0 3px #FFFFFF;
+    padding-top: 2em;
+
+}
+.message{
+    animation: typeMsg 7s steps(80) 1s 1 normal both,
+    curserAnim 500ms steps(80) infinite normal;
+}
+@keyframes typeMsg{
+    0%{
+        width:0em;
+    }
+    100%{
+        width:22em;
+    }
+}
+@keyframes curserAnim{
+    0%{
+        border-right-color:#c561ff;
+    }
+    100%{
+        border-right-color:transparent;
+    }
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 7em;
+    text-shadow: 0 3px 20px #FFFFFF;
+    text-align: center;
+   padding-top: 1.5em;
+  }
+
+    .socialmedia {
+        margin-left: -2%;
+        margin-top: 5%;
+       text-align: center;
+       padding-bottom: 1.5em;
+      }
+      
+      .socialmedia ul {
+        font-size: 3em;
+        list-style-type: none;
+        text-align: center;
+        padding-bottom: 1.5em;
+      }
+      
+      .socialmedia li {
+        color: whitesmoke;
+        display: inline;
+        padding: 2%;
+        text-shadow: 0 0 3px #FFFFFF;
+       text-align : center;
+       padding-bottom: 1.5em;
+      }
+      
+      .socialmedia li a {
+        color: whitesmoke;
+        text-decoration: none;
+        text-align: center;
+        padding-bottom: 1.5em;
+      }
