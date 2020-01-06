@@ -23,7 +23,7 @@ h2{
     font-size: 25px;
     font-family: 'Dancing Script', cursive;
     color: whitesmoke;
-    text-shadow: 0 0 3px #FFFFFF;
+    text-shadow: 0 0 3px #c561ff;
     padding-top: 2em;
 
 }
@@ -73,7 +73,7 @@ h1 {
         color: whitesmoke;
         display: inline;
         padding: 2%;
-        text-shadow: 0 0 3px #FFFFFF;
+        text-shadow: 0 0 3px #c561ff;
        text-align : center;
        padding-bottom: 1.5em;
       }
